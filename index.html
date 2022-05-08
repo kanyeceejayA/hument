@@ -45,12 +45,10 @@
       <!-- mini logo for sidebar mini 50x50 pixels -->
 	  <b class="logo-mini">
 		  <span class="light-logo"><img src="images/humentum.png" alt="logo" style="max-width:100px"></span>
-		  <span class="dark-logo"><img src="images/humentum.png" alt="logo"></span>
 	  </b>
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg">
-		  <img src="images/humentum.png" alt="logo" class="light-logo" style="max-width:100px">
-	  	  <img src="images/humentum.png" alt="logo" class="dark-logo">
+		  <!-- <img src="images/humentum.png" alt="logo" class="light-logo" style="max-width:100px">  -->
 	  </span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
@@ -125,7 +123,7 @@
     <section class="content-header">
       <h1>
         Dashboard
-        <small>Control panel</small>
+        <small>KPI Monitoring</small>
       </h1>
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -151,7 +149,7 @@
 				  <div class="progress progress-xxs mt-0 mb-10">
 					<div class="progress-bar bg-danger" role="progressbar" style="width: 35%; height: 4px;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
 				  </div>
-				  <div class="font-size-12"><i class="ion-arrow-graph-down-right text-success mr-1"></i> %18 decrease from last month</div>
+				  <div class="font-size-12"><i class="ion-arrow-graph-down-right text-decrease mr-1"></i> %18 decrease from last month</div>
 				</div>
 			</div>
 			<!-- /.col -->
@@ -322,7 +320,7 @@
           <!-- AREA CHART -->
           <div class="box">
             <div class="box-header with-border">
-              <h3 class="box-title">Consultancy: Number concluded cases vs opened cases</h3>
+              <h3 class="box-title">Consultancy: Number concluded cases vs projected cases</h3>
 
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
@@ -330,6 +328,14 @@
               </div>
             </div>
             <div class="box-body">
+              <ul class="list-inline text-right">
+                <li>
+                  <h5><i class="fa fa-circle mr-5" style="color: rgb(233 171 46);"></i>Cases Completed</h5>
+                </li>
+                <li>
+                  <h5><i class="fa fa-circle mr-5" style="color: #bbe6eb;"></i>Projected</h5>
+                </li>
+              </ul>
               <div class="chart">
                 <canvas id="areaChart" style="height:270px"></canvas>
               </div>

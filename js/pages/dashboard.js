@@ -148,20 +148,20 @@ Morris.Area({
 		  labels  : ['0', '4', '8', '12', '16', '20', '24', '30', '16', '20', '24', '30', '34', '38', '42', '46', '50', '54'],
 		  datasets: [
 			{
-			  label               : 'Electronics',
-			  fillColor           : 'rgba(30,172,190,0.3)',
-			  strokeColor         : 'rgba(30,172,190,0)',
-			  pointColor          : 'rgba(30,172,190,0.5)',
-			  pointStrokeColor    : '#1eacbe',
+			  label               : 'Avg. Cases Opened',
+			  fillColor           : 'rgb(233 171 46 / 30%)',
+			  strokeColor         : 'rgb(233 171 46)',
+			  pointColor          : 'rgb(233 171 46)',
+			  pointStrokeColor    : 'rgb(233 171 46)',
 			  pointHighlightFill  : '#fff',
-			  pointHighlightStroke: 'rgba(30,172,190,1)',
+			  pointHighlightStroke: 'rgb(233 171 46)',
 			  data                : [14, 4, 6, 17, 5, 10, 14, 15, 14, 17, 29, 26, 30, 16, 37, 31, 44, 52]
 			},
 			{
-			  label               : 'Digital Goods',
+			  label               : 'Avg. Cases Closed',
 			  fillColor           : 'rgba(38,198,218,0.7)',
 			  strokeColor         : 'rgba(38,198,218,0)',
-			  pointColor          : '#06d79c',
+			  pointColor          : 'rgba(38,198,218)',
 			  pointStrokeColor    : 'rgba(38,198,218,0.5)',
 			  pointHighlightFill  : '#fff',
 			  pointHighlightStroke: 'rgba(38,198,218,1)',
