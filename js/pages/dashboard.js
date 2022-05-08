@@ -49,14 +49,15 @@ $(function () {
 			height: '38',
 			lineColor: '#745af2',
 		});
-		$("#baralc").sparkline([1,4,3,7,6,4,8,9,6,8,12], {
-			type: 'bar',
-			height: '80',
-			width: '500',
-			barWidth: 6,
-			barSpacing: 4,
-			barColor: '#e9ab2e',
-		});
+		// $("#baralc").sparkline([1,4,3,7,6,4,8,9,6,8,12], {
+		// 	type: 'bar',
+		// 	height: '80',
+		// 	width: '500',
+		// 	barWidth: 6,
+		// 	barSpacing: 4,
+		// 	barColor: '#e9ab2e',
+		// });
+		
 		
 
 	    $("#lineIncrease").sparkline([1,8,6,5,6,8,7,9,7,8,10,16,14,10], {
